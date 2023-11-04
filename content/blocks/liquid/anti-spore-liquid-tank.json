@@ -1,0 +1,8 @@
+"type": "LiquidRouter",
+"size": 4,
+"liquidCapacity": 500,
+"health": 250,
+"category": "liquid",
+"requirements": [
+		"lead/1"
+]

@@ -1,0 +1,42 @@
+"type": "mech",
+"speed": 0.6,
+"rotateSpeed": 2,
+"health": 150,
+"lightRadius": 30,
+"range": 30,
+"weapons": [
+{
+				"name": "dark-shock-shotgun",
+				"shootCone": 20,
+				"inaccuracy": 10,
+				"reload": 60,
+				"recoil": 0.2,
+				"mirror": false,
+				"x": 1,
+				"y": 4,
+				"shootX": 4,
+				"shootY": 4,
+				"shoot": {
+				"type": "ShootPattern",
+				"shots": 5,
+				},
+				"bullet": {
+					"type": "BasicBulletType",
+					"damage": 5,
+					"knockback": 1,
+					"lifetime": 20,
+					"speed": 5,		
+					"shootEffect": "none",
+					"despawnEffect": "none",
+					"hitEffect": {
+						"type": "ParticleEffect",
+    				"particles": 10,
+    				"length": 10,
+    				"baseLength": 5,
+    				"lifetime": 40,
+   						 "sizeFrom": 1,
+    				"sizeTo": 2
+					}
+				}
+		}
+	]

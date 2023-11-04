@@ -1,0 +1,22 @@
+"type": "mech",
+"speed": 0.8,
+"rotateSpeed": 3,
+"health": 150,
+"lightRadius": 20,
+"mineSpeed": 0.1,
+"mineTier": 2,
+"buildSpeed": 0.1,
+"weapons": [
+		{
+				"name": "suit-pistol",
+				"reload": 25,
+				"recoil": 3,
+				"shootEffect": "none",
+				"bullet": {
+					"type": "BasicBulletType",
+					"damage": 13,
+					"hitEffect": "none",
+					"despawnEffect": "none"
+				}
+		}
+	]

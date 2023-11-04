@@ -1,0 +1,67 @@
+"type": "mech",
+"speed": 0.5,
+"rotateSpeed": 3,
+"health": 100,
+"lightRadius": 30,
+"range": 120,
+"weapons": [
+{
+				"name": "bfg",
+				"inaccuracy": 10,
+				"reload": 80,
+				"recoil": 1,
+				"mirror": false,
+				"y": 4,
+				"x": 4,
+				"shootX": 3,
+				"shootY": 2,
+				"shoot": {
+					"shotDelay": 40
+				},
+				"bullet": {
+					"type": "BasicBulletType",
+        "sprite": "spor-plasma-bullet",
+        "absorbable": true,
+        "shrinkY": 0.1,
+        "shrinkX": 0.1,
+        "width": 10,
+        "spin": 10,
+        "height": 10,
+        "speed": 4,
+        "lifetime": 30,
+        "damage": 55,
+        "frontColor": "96ffb1",
+        "backColor": "8df0a6",
+        "shootEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 20,
+        "sizeTo": 0,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "96ffb1",
+        "colorTo": "8df0a6"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 0,
+        "sizeTo": 20,
+        "strokeFrom": 4,
+        "strokeTo": 0,
+        "colorFrom": "96ffb1",
+        "colorTo": "8df0a6"
+        },
+        "hitEffect": {
+        	"type": "WaveEffect",
+        "lifetime": 15,
+        "sizeFrom": 10,
+        "sizeTo": 0,
+        "strokeFrom": 3,
+        "strokeTo": 0,
+        "colorFrom": "96ffb1",
+        "colorTo": "8df0a6"
+        }
+				}
+		}
+	]

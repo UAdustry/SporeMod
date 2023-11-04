@@ -1,0 +1,15 @@
+{
+    name: spor
+    displayName: Spore
+    author: IvanDem
+    description: 
+    '''
+    Mindustry roleplay(!) mod (Work in progress)
+    Used content:
+    - Particles from Exogenesis
+    - Lighting system from Mindustry Lighting
+    '''
+    version: 1.0
+    minGameVersion: 140
+    hidden: true
+}

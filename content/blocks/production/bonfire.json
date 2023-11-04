@@ -1,0 +1,33 @@
+"type": "GenericCrafter",
+    "size": 3,
+    "hasPower": false,
+    "hasItems": true,
+    "liquidCapacity": 0,
+    "itemCapacity": 10,
+    "craftTime": 1000,
+    "drawer": {
+    "type": "DrawMulti",
+         "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+          "type": "DrawFlame",
+         "flameColor": "deae52"
+      }
+    ],
+    },
+    "consumes": {
+        "items": {
+            "items": [
+                "coal/1"
+            ]
+        }
+    },
+    "requirements": [
+       "coal/10"
+    ],
+    "category": "crafting",
+    "outputItem": "trash/1",
+    "hasShadow": false,
+    "lightRadius": 3

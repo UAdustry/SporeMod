@@ -1,0 +1,17 @@
+{
+  "type": "ConsumeGenerator",
+  "minEfficiency": 1,
+  "health": 120,
+  "size": 4,
+  "powerProduction": 6,
+  "itemCapacity": 10,
+  "consumes": {
+    "items": [
+      "coal/1"
+    ],
+  },
+  "requirements": [
+    "lead/1"
+  ],
+  "category": "power",
+}

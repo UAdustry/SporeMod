@@ -1,0 +1,57 @@
+"range": 70,
+"hitSize": 15,
+"type": "legs",
+"speed": 0.6,
+"rotateSpeed": 2,
+"health": 275,
+"lightRadius": 20,
+	"legCount": 6,
+	"legMoveSpace": 1.4,
+	"legLength": 10,
+	"allowLegStep": true,
+	"hovering": true,
+"weapons": [
+		{
+			"name": "spider-weapon",
+			"reload": 60,
+			"mirror": false,
+			"x": 0,
+			"y": 0,
+			"shootX": 0,
+			"shootY": 0,
+			 "bullet": { 
+  "type": "BasicBulletType",
+	"splashDamage": 25,
+	"splashDamageRadius": 60,
+	"height": 10,
+	"width": 10,
+	"speed": 2,
+	"lifetime": 3,
+	"status": "unmoving",
+	"statusDuration": 90,
+	"shootEffect": {
+		  "type": "WaveEffect",
+        "lifetime": 40,
+        "sizeFrom": 0,
+        "sizeTo": 75,
+        "strokeFrom": 4,
+        "strokeTo": 1,
+        "colorFrom": "FFFFFF",
+        "colorTo": "FFFFFF"
+	},
+	"hitEffect": {
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 10,
+    "lifetime": 30,
+    "length": 50,
+    "strokeFrom": 7,
+    "strokeTo": 1,
+    "lenFrom": 1,
+    "lenTo": 10,
+    "colorFrom": "B0A0C0",
+    "colorTo": "FFFFFF"
+	}
+}
+}
+]

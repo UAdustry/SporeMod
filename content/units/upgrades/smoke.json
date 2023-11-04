@@ -1,0 +1,60 @@
+//this unit is not upgrade anymore actually
+"type": "mech",
+"speed": 0.6,
+"rotateSpeed": 2,
+"health": 200,
+"lightRadius": 20,
+"mineSpeed": 0.1,
+"mineTier": 2,
+"weapons": [
+   {
+    "name": "launcher",
+    "reload": 600,
+    "rotate": false,
+    "mirror": false,
+   "x": 1,
+    "y": 5,
+    "shootX": 5,
+    "shootY": 1,
+    "shoot": {
+  "shotDelay": 25
+  },
+    "bullet": {
+    "type": "BasicBulletType",
+        "sprite": "spor-grenade",
+        "absorbable": true,
+        "shrinkY": 0.1,
+        "shrinkX": 0.1,
+        "width": 10,
+        "spin": 8,
+        "height": 10,
+        "speed": 2,
+        "lifetime": 40,
+        "damage": 75,
+        "frontColor": "FFFFFFF",
+        "backColor": "73FFAEFF",
+        "hitEffect": {
+            "type": "ParticleEffect",
+            "particles": 10,
+            "length": 10,
+            "baseLength": 20,
+            "lifetime": 40,
+         "sizeFrom": 15,
+         "sizeTo": 30,
+            "colorFrom": "717171",
+            "colorTo": "FFFFFF"
+            },
+        "despawnEffect": {
+            "type": "ParticleEffect",
+            "particles": 10,
+            "length": 10,
+            "baseLength": 20,
+            "lifetime": 750,
+         "sizeFrom": 15,
+         "sizeTo": 30,
+            "colorFrom": "717171",
+            "colorTo": "FFFFFF"
+            },
+    }
+  }
+	]

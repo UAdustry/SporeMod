@@ -1,0 +1,18 @@
+"type": "ParticleWeather",
+"color": "B0A0C0",
+"noiseColor": "B0A0C0",
+"particleRegion": "particle"
+"sizeMax": 25,
+"sizeMin": 1,
+"density": 3000,
+"status": "spor-spore-damage"
+"useWindVector": true,
+"drawNoise": true,
+"opacityMultiplier": 0.75,
+"baseSpeed": 3,
+"sound": "wind",
+"soundVol": 0.65,
+"force": 1
+"attrs": {
+  "spores": 1.1
+}

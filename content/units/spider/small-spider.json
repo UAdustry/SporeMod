@@ -1,0 +1,60 @@
+"range": 100,
+"hitSize": 7,
+"type": "legs",
+"speed": 1,
+"rotateSpeed": 2,
+"health": 100,
+"lightRadius": 0,
+	"legCount": 4,
+	"legMoveSpace": 1,
+	"legLength": 5,
+	"allowLegStep": true,
+	"hovering": true,
+"weapons": [
+		{
+			"name": "mini-weapon",
+			"reload": 100,
+			"mirror": false,
+			"x": 0,
+			"y": 0,
+			"shootX": 0,
+			"shootY": 0,
+			 "bullet": { 
+  "type": "ArtilleryBulletType",
+	"splashDamage": 10,
+	"splashDamageRadius": 30,
+	"height": 10,
+	"width": 10,
+	"speed": 2,
+	"lifetime": 50,
+	"frontColor": "B0A0C0",
+	"backColor": "B0A0C0",
+	"hitEffect": {
+	"type": "ParticleEffect",
+    "line": true,
+    "particles": 5,
+    "lifetime": 15,
+    "length": 25,
+    "strokeFrom": 7,
+    "strokeTo": 1,
+    "lenFrom": 1,
+    "lenTo": 2,
+    "colorFrom": "B0A0C0",
+    "colorTo": "B0A0C0"
+	},
+	"despawnEffect": {
+		"type": "ParticleEffect",
+    "line": true,
+    "particles": 5,
+    "lifetime": 15,
+    "length": 25,
+    "strokeFrom": 7,
+    "strokeTo": 1,
+    "lenFrom": 1,
+    "lenTo": 2,
+    "colorFrom": "B0A0C0",
+    "colorTo": "B0A0C0"
+	}
+}
+}
+]

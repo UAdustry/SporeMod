@@ -1,0 +1,74 @@
+"type": "mech",
+"speed": 0.1,
+"rotateSpeed": 1,
+"health": 600,
+"lightRadius": 20,
+"hitSize": 48,
+"weapons": [
+		{
+				"name": "boss1-weapon",
+				"reload": 30,
+				"recoil": 3,
+				"rotate": false,
+				"shootEffect": "none",
+				"x": 15,
+				"shootY": 13.5,
+				"bullet": {
+					"type": "ContinuousFlameBulletType",
+					"colors": ["d4816b", "eaaa75", "ffd37f", "ffffff"],
+					"damage": 1,
+					"knockback": 3,
+					"buildingDamageMultiplier": 0.24,
+					"width": 3,
+					"drawFlare": false,
+					"lifetime": 60,
+					"shootEffect": {
+					"type": "multiEffect",
+					"effects": [
+					{
+					"type": "ParticleEffect",
+					"particles": 12,
+					"length": 100,
+					"lifetime": 55,
+					"line": true,
+					"cone": 40,
+					"lenFrom": 8,
+					"lenTo": 2,
+					"strokeFrom": 3,
+					"strokeTo": 0.5,
+					"colorFrom": "eaaa75",
+					"colorTo": "ffd37f"
+					},
+					{
+					"type": "ParticleEffect",
+					"particles": 21,
+					"length": 100,
+					"lifetime": 35,
+					"line": true,
+					"cone": 70,
+					"lenFrom": 8,
+					"lenTo": 5,
+					"strokeFrom": 3,
+					"strokeTo": 0.5,
+					"colorFrom": "eaaa75",
+					"colorTo": "ffd37f"
+					},
+					{
+					"type": "ParticleEffect",
+					"particles": 24,
+					"length": 140,
+					"lifetime": 25,
+					"line": true,
+					"cone": 40,
+					"lenFrom": 10,
+					"lenTo": 10,
+					"strokeFrom": 3,
+					"strokeTo": 0.5,
+					"colorFrom": "eaaa75",
+					"colorTo": "ffd37f"
+					}
+					]
+					},
+				}
+		}
+	]

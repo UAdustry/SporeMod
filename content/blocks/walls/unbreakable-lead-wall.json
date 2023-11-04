@@ -1,0 +1,9 @@
+"type": "Wall",
+"health": 99999999999,
+"size": 1,
+"absorbLasers": true,
+"requirements": [
+	"lead/6"
+],
+"category": "defense",
+"buildVisibility": "sandboxOnly"

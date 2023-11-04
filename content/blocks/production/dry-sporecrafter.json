@@ -1,0 +1,33 @@
+"type": "GenericCrafter",
+    "size": 2,
+    "hasPower": false,
+    "hasItems": true,
+    "liquidCapacity": 0,
+    "itemCapacity": 10,
+    "craftTime": 350,
+    "drawer": {
+    "type": "DrawMulti",
+         "drawers": [
+        {
+        "type": "DrawDefault"
+        },
+        {
+          "type": "DrawFlame",
+         "flameColor": "f6ca6a"
+      }
+    ],
+    },
+    "consumes": {
+        "items": {
+            "items": [
+                "spore-pod/1"
+            ]
+        }
+    },
+    "requirements": [
+       "lead/25"
+    ],
+    "category": "crafting",
+    "outputItem": "dry-spore/1",
+    "hasShadow": true,
+    "lightRadius": 2

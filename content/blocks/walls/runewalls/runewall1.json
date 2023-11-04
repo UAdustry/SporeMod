@@ -1,0 +1,8 @@
+"type": "MessageBlock",
+"category": "defense",
+"size": 2,
+"health": 50,
+"requirements": [ 
+"lead/5"
+]
+"buildVisibility": "sandboxOnly"

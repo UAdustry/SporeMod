@@ -1,0 +1,38 @@
+"type": "missile",
+"template": "MissileUnitType",
+"lifetime": 50,
+"speed": 5,
+"rotateSpeed": 10,
+"missileAccelTime": 10,
+"homingDelay": 15,
+"drawBody": true,
+"drawCell": false,
+"outlines": false,
+"hitSize": 10,
+"hittable": false,
+"targetable": false,
+"physics": false,
+"trailLength": 4,
+"engineSize": 1,
+"engineOffset": 0.5,
+"engineLayer": 99,
+"weapons": [
+  {
+    "controllable": false,
+    "shootCone": 360,
+    "shootOnDeath": true,
+    "shootSound": "explosion",
+    "bullet": {
+      "type": "BasicBulletType",
+      "lifetime": 1,
+      "speed": 1,
+      "splashDamage": 2,
+      "splashDamageRadius": 100,
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "hitEffect": "none"
+    }
+  }
+]
+"deathSound": "none",
+"deathExplosionEffect": "none"

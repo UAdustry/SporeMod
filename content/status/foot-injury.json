@@ -1,0 +1,13 @@
+"color": "ff4e45"
+"speedMultiplier": 0.3,
+"permanent": true,
+"effect": {
+	"region": "spor-injured",
+	"colorFrom": "FF0000",
+    "colorTo": "FF0000",
+    "particles": 1,
+    "sizeFrom": 7,
+    "sizeTo": 1,
+    "lifetime": 20
+},
+"effectChance": 0.05

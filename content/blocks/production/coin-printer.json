@@ -1,0 +1,22 @@
+"type": "GenericCrafter",
+    "size": 2,
+    "hasPower": false,
+    "hasItems": true,
+    "liquidCapacity": 0,
+    "itemCapacity": 10,
+    "craftTime": 600,
+    "consumes": {
+        "items": {
+            "items": [
+                "lead/4"
+                "food/2"
+            ]
+        }
+    },
+    "requirements": [
+       "lead/50"
+    ],
+    "category": "crafting",
+    "outputItem": "coin/1",
+    "hasShadow": true,
+    "lightRadius": 4

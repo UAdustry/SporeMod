@@ -1,0 +1,8 @@
+"type": "Wall",
+"health": 210,
+"size": 2,
+"absorbLasers": true,
+"requirements": [
+	"spore-pod/24"
+],
+"category": "defense"

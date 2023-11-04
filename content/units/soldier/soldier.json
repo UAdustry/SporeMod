@@ -1,0 +1,44 @@
+"type": "mech",
+"speed": 0.6,
+"rotateSpeed": 2,
+"health": 200,
+"lightRadius": 20,
+"mineSpeed": 0.1,
+"mineTier": 2,
+"weapons": [
+{
+				"name": "shock-shotgun",
+				"shootCone": 20,
+				"inaccuracy": 10,
+				"reload": 60,
+				"recoil": 0.5,
+				"mirror": false,
+				"x": 1,
+				"y": 4,
+				"shootX": 3,
+				"shootY": 5.5,
+				"heatColor": 826969,
+				"shoot": {
+				"type": "ShootPattern",
+				"shots": 5,
+				},
+				"bullet": {
+					"type": "BasicBulletType",
+					"damage": 5,
+					"knockback": 1,
+					"lifetime": 20,
+					"speed": 5,		
+					"status": "spor-bleeding",
+					"shootEffect": "none",
+					"despawnEffect": "none",
+					"hitEffect": {
+						"type": "ParticleEffect",
+    				"particles": 10,
+    				"length": 10,
+    				"baseLength": 5,
+    				"lifetime": 40,
+    				"size": 1
+					}
+				}
+		}
+	]

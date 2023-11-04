@@ -1,0 +1,13 @@
+"color": "ff4e45"
+"damage": 0.01,
+"speedMultiplier": 1.2,
+"effect": {
+  "type": "WaveEffect",
+  "lifetime": 12,
+  "sizeFrom": 3,
+  "sizeTo": 0,
+  "strokeFrom": 3,
+  "strokeTo": 0,
+  "colorFrom": "FF0000",
+  "colorTo": "FFFFFF"
+},

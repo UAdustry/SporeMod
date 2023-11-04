@@ -1,0 +1,5 @@
+"type": "SwitchBlock",
+"category": "logic",
+"requirements": [
+		"lead/1"
+]

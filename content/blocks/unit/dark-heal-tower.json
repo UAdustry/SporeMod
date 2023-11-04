@@ -1,0 +1,14 @@
+"type": "RepairTower",
+"size": 4,
+"hasPower": true,
+"hasLiquids": false,
+"range": 100,
+"healAmount": 0.2,
+"consumes": {
+  "power": 0.1
+},
+"requirements": [
+       "lead/1"
+    ],
+"category": "units",
+"buildVisibility": "sandboxOnly"

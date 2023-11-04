@@ -1,0 +1,8 @@
+"type": "AutoDoor",
+"health": 50,
+"size": 2,
+"requirements": [
+	"lead/1"
+],
+"buildVisibility": "sandboxOnly",
+"category": "defense"

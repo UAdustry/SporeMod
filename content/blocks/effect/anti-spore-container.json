@@ -1,0 +1,8 @@
+"type": "StorageBlock"
+"size": 2,
+"health": 100,
+"itemCapacity": 50,
+"category": "effect",
+"requirements": [
+		"lead/10"
+]

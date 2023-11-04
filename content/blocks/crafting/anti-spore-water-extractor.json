@@ -1,0 +1,14 @@
+"type": "Fracker",
+"size": 5,
+"health": 250,
+"liquidCapacity": 64,
+"result": "water",
+"attribute": "water",
+"pumpAmount": 0.5,
+"consumes": {
+	"power": 2
+},
+"category": "production",
+"requirements": [
+		"lead/1"
+]

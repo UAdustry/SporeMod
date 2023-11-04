@@ -1,0 +1,22 @@
+"type": "mech",
+"speed": 0.1,
+"rotateSpeed": 1,
+"health": 800,
+"lightRadius": 40,
+"hitSize": 48,
+"weapons": [
+		{
+				"name": "noweapon",
+				"reload": 100,
+				"rotate": false,
+				"shootEffect": "none",
+				 "shoot": {
+				   "type": "ShootPattern",
+				  "shots": 20,
+				  "shotDelay": 3,
+        },
+				"bullet": {
+					"spawnUnit": "spor-komaruunit"
+					},
+				}
+	]

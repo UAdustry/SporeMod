@@ -1,0 +1,30 @@
+"type": "mech",
+"speed": 0.5,
+"rotateSpeed": 2,
+"health": 70,
+"lightRadius": 100,
+"mineSpeed": 0.3,
+"mineTier": 2,
+"buildSpeed": 0.3,
+"weapons": [
+		{
+				"name": "rifle",
+				"reload": 700,
+				"mirror": false,
+				"recoil": 4,
+				"shootEffect": "none",
+				"x": 4,
+				"y": 4,
+				"shootX": -1,
+				"shootY": 18,
+				"bullet": {
+					"length": 5,
+					"damage": 80,
+					"speed": 10,
+					"hitEffect": "none",
+					"despawnEffect": "none",
+					"status": "spor-arm-injury",
+					"lifetime": 45
+				}
+		}
+	]

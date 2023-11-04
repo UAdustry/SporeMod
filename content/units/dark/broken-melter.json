@@ -1,0 +1,41 @@
+"type": "mech",
+"speed": 0.2,
+"rotateSpeed": 0.5,
+"health": 275,
+"lightRadius": 60,
+"range": 30,
+"weapons": [
+{
+  "name": "melting-gun",
+   "shootCone": 34,
+    "mirror": true,
+    "alternate": false,
+    "top": false, 
+    "x": 10,
+    "y": 2,
+    "shootY": 9,
+    "rotate": true,
+    "rotateSpeed": 0.3,
+    "cooldownTime": 90,
+    "rotationLimit": 20,
+    "alwaysContinuous": true,
+    "continuous": true,
+    "recoil": 0.5,
+    "bullet": { //todo hiteffect
+     "type": "ContinuousFlameBulletType",
+    "colors": ["e71507AA", "ff8517ff", "ffda5bff", "fffeebff"],
+    "flareWidth": 2,
+    "flareLength": 14,
+    "flareColor": "ff8517ff",
+    "damage": 3,
+    "collidesTiles": false,
+    "pierceArmor": true,
+    "divisions": 5,
+    "length": 50,
+    "drawSize": 35,
+    "lifetime": 30,
+    "status": "melting",
+    "statusDuration": 150
+    }
+	}
+ ]

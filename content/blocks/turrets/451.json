@@ -1,0 +1,42 @@
+{
+"category": "turret",
+"type": "LiquidTurret",
+"size": 3,
+"range": 100,
+"health": 120,
+"reload": 4,
+"shoot": {
+"type": "shootAlternate",
+"spread": 7,
+"shots": 3
+},
+"inaccuracy": 3,
+"velocityRnd": 0.3,
+"ammoTypes": {
+  "slag": {
+    "type": "LiquidBulletType",
+    "liquid": "slag",
+    "damage": 5,
+    "speed": 9,
+    "puddleSize": 4,
+    "lifetime": 50,
+    "drag": 0.07,
+    "orbSize": 4,
+    "knockback": 1,
+   "fragBullets": 1,
+  "fragBullet": {
+  "type": "LiquidBulletType",
+  "liquid": "slag",
+  "lifetime": 60,
+  "puddleSize": 3,
+  "orbSize": 1.5,
+  "speed": 3,
+  "damage" : 3
+  }
+  }
+},
+"requirements": [
+  "lead/1"
+  ],
+"buildVisibility": "sandboxOnly"
+}

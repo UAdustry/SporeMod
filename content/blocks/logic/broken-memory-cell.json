@@ -1,0 +1,7 @@
+"type": "MemoryBlock",
+"size": 2,
+"memoryCapacity": 512,
+"category": "logic"
+"requirements": [
+		"lead/1"
+]

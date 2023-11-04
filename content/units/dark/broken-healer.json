@@ -1,0 +1,64 @@
+//effects taken from Exogenesis
+"type": "mech",
+"speed": 1,
+"rotateSpeed": 3,
+"health": 200,
+"lightRadius": 15,
+ "abilities": [
+    {
+      "type": "mindustry.entities.abilities.RepairFieldAbility",
+      "activeEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 50,
+        "sizeTo": 0,
+        "strokeFrom": 0,
+        "strokeTo": 10,
+        "colorFrom": "73d188",
+        "colorTo": "84f491"
+      },
+      "healEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 50,
+        "strokeFrom": 10,
+        "strokeTo": 0,
+        "colorFrom": "73d188",
+        "colorTo": "84f491"
+      },
+      "range": 75,
+      "amount": 10,
+      "reload": 50
+    },
+     {
+      "type": "EnergyFieldAbility",
+      "healEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 20,
+        "offset": 50,
+        "length": 55,
+        "cone": -360,
+        "lenFrom": 4,
+        "lenTo": 0,
+        "colorFrom": "84f491",
+        "colorTo": "84f491"
+      },
+      "statusDuration": 300,
+      "status": "electrified",
+      "color": "84f491",
+      "maxTargets": 5,
+      "damage": 1,
+      "healPercent": 0.3,
+      "range": 100,
+      "y": 0,
+      "sectors": 6,
+      "rotateSpeed": 1,
+      "hitBuildings": false,
+      "sectorRad": 0.11,
+      "effectRadius": 3.5,
+      "reload": 19
+    }
+  ]

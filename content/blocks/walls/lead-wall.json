@@ -1,0 +1,8 @@
+"type": "Wall",
+"health": 70,
+"size": 1,
+"absorbLasers": true,
+"requirements": [
+	"lead/6"
+],
+"category": "defense"

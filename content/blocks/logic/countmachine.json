@@ -1,0 +1,14 @@
+"type": "LogicBlock"
+"buildVisibility": "sandboxOnly",
+"canOverdrive": false,
+"targetable": false,
+"instructionsPerTick": 128,
+"forceDark": true,
+"privileged": true,
+"size": 3,
+"maxInstructionsPerTick": 1000,
+"range": 9999999,
+"category": "logic",
+"requirements": [
+    "lead/1"
+]

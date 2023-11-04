@@ -1,0 +1,14 @@
+{
+	"type": "CoreBlock",
+	"health": 1250,
+	"size": 2,
+	"itemCapacity": 300,
+	"unitCapModifier": 1,
+    "unitType": "smoke",
+	"requirements": [
+		"lead/1"
+	],
+  	"category": "effect",
+  "solid": false,
+  "placeableOn": true
+}
