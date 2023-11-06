@@ -1,0 +1,24 @@
+"type": "ItemTurret",
+"size": 4,
+"range": 1000,
+"health": 1200,
+"shootY": 3,
+"reload": 2000,
+"recoil": 2,
+"rotateSpeed": 0.1,
+"shootSound": "missile",
+"ammoUseEffect": "none",
+"shootEffect": "none",
+"outlineIcon": false,
+"ammoUse": 1,
+"ammoTypes": {
+  "lead": {
+    "spawnUnit": "spor-spormissile"
+  }
+},
+"drawer": "DrawDefault"
+"category": "turret",
+"requirements": [
+  "lead/1"
+],
+"buildVisibility": "sandboxOnly"
