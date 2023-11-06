@@ -1,0 +1,9 @@
+"type": "Wall",
+"health": 10,
+"size": 1,
+"absorbLasers": true,
+"requirements": [
+	"lead/10"
+],
+"category": "defense",
+"baseExplosiveness": 5

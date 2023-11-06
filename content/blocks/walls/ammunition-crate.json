@@ -1,0 +1,10 @@
+"type": "Wall",
+"health": 40,
+"size": 2,
+"absorbLasers": true,
+"requirements": [
+	"lead/1"
+],
+"category": "effect",
+"baseExplosiveness": 30,
+"buildVisibility": "sandboxOnly"

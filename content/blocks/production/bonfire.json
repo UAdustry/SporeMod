@@ -1,5 +1,6 @@
 "type": "GenericCrafter",
     "size": 3,
+    "health": 20
     "hasPower": false,
     "hasItems": true,
     "liquidCapacity": 0,

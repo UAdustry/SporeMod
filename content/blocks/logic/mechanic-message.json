@@ -1,0 +1,8 @@
+"type": "MessageBlock",
+"category": "logic",
+"size": 1,
+"health": 35,
+"requirements": [ 
+"lead/5"
+]
+"buildVisibility": "sandboxOnly"

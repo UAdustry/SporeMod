@@ -1,0 +1,10 @@
+"type": "Battery",
+"conductivePower": true,
+"consumes": {
+  "powerBuffered": 500
+},
+"size": 3,
+"category": "power",
+"requirements": [
+    "lead/75"
+]
