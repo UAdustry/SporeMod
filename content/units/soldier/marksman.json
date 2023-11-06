@@ -3,9 +3,9 @@
 "rotateSpeed": 2,
 "health": 70,
 "lightRadius": 100,
+"itemCapacity": 20,
 "mineSpeed": 0.3,
 "mineTier": 2,
-"buildSpeed": 0.3,
 "weapons": [
 		{
 				"name": "rifle",

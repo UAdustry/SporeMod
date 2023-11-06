@@ -1,11 +1,12 @@
 "type": "mech",
 "speed": 0.8,
 "rotateSpeed": 3,
-"health": 150,
+"health": 120,
 "lightRadius": 20,
-"mineSpeed": 0.1,
+"mineSpeed": 0.5,
 "mineTier": 2,
-"buildSpeed": 0.1,
+"buildSpeed": 0.5,
+"itemCapacity": 40
 "weapons": [
 		{
 				"name": "suit-weapon",

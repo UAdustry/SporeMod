@@ -4,8 +4,9 @@
 "rotateSpeed": 2,
 "health": 200,
 "lightRadius": 20,
-"mineSpeed": 0.1,
+"mineSpeed": 0.3,
 "mineTier": 2,
+"itemCapacity": 20,
 "weapons": [
    {
     "name": "launcher",
