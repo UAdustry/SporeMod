@@ -1,5 +1,5 @@
 "color": "ff4e45"
-"damage": 0.01,
+"damage": 0.3,
 "speedMultiplier": 1.2,
 "effect": {
   "type": "WaveEffect",

@@ -10,6 +10,6 @@
     - Lighting system from Mindustry Lighting
     '''
     version: 1.0
-    minGameVersion: 146
+    minGameVersion: 140
     hidden: true
 }

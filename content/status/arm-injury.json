@@ -1,6 +1,6 @@
 "color": "ff4e45",
 "permanent": true,
-"reloadSpeedMultiplier": 0.3,
+"reloadMultiplier": 0.3,
 "damageMultiplier": 0.7,
 "effect": {
 	"region": "spor-injured",
