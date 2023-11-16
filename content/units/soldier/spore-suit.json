@@ -3,9 +3,9 @@
 "rotateSpeed": 3,
 "health": 120,
 "lightRadius": 20,
-"mineSpeed": 0.5,
+"mineSpeed": 1,
 "mineTier": 2,
-"buildSpeed": 0.5,
+"buildSpeed": 0.7,
 "itemCapacity": 40
 "weapons": [
 		{

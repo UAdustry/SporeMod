@@ -1,5 +1,6 @@
 "type": "SwitchBlock",
 "category": "logic",
+"health": 20,
 "requirements": [
 		"lead/1"
 ]

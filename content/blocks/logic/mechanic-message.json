@@ -1,7 +1,7 @@
 "type": "MessageBlock",
 "category": "logic",
 "size": 1,
-"health": 35,
+"health": 20,
 "requirements": [ 
 "lead/5"
 ]

@@ -4,7 +4,7 @@
 "hasLiquids": true,
 "liquidCapacity": 10,
 "range": 25,
-"healAmount": 0.1,
+"healAmount": 0.07,
 "consumes": {
   "power": 1,
     "liquids": [

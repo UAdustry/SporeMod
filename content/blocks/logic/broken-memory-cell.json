@@ -1,5 +1,6 @@
 "type": "MemoryBlock",
 "size": 2,
+"health": 20,
 "memoryCapacity": 512,
 "category": "logic"
 "requirements": [

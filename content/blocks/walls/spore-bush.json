@@ -1,5 +1,5 @@
 "type": "Wall",
-"health": 210,
+"health": 20,
 "size": 2,
 "absorbLasers": true,
 "requirements": [
